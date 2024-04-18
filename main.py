@@ -9,8 +9,8 @@ from keep_alive import keep_alive
 status = os.getenv("status")  # online/dnd/idle
 
 custom_activity = {
-    "name": "to nothing",
-    "type": 2,  # 2 for listening
+    "name": "nothing",
+    "type": 8,  # 2 for listening
 }
 
 usertoken = os.getenv("token")

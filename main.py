@@ -9,11 +9,11 @@ from keep_alive import keep_alive
 status = os.getenv("status")  # online/dnd/idle
 
 custom_activity = {
-    "name": "Playing Chipi Chipi",
+    "name": "Chipi Chipi",
     "type": 0,  # 0 for playing
     "assets": {
-        "large_image": "https://c.tenor.com/Lg21skpXtU4AAAAC/cat-meme.gif",
-        "large_text": "I am dumb"
+        "large_image": "https://c.tenor.com/Lg21skpXtU4AAAAC/cat-meme.gif",  # Your GIF link here
+        "large_text": "I am a damb cat"
     },
 }
 

@@ -10,7 +10,7 @@ status = os.getenv("status")  # online/dnd/idle
 
 custom_activity = {
     "name": "nothing",
-    "type": 8,  # 2 for listening
+    "type": 2,  # 2 for listening
 }
 
 usertoken = os.getenv("token")

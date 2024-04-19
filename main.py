@@ -8,9 +8,24 @@ from keep_alive import keep_alive
 
 status = os.getenv("status")  # online/dnd/idle
 
+# Custom activity with large image and buttons
 custom_activity = {
-    "name": "nothing",
-    "type": 2,  # 2 for listenig
+    "name": "Chipi Chipi",
+    "type": 0,  # 0 for playing
+    "assets": {
+        "large_image": "https://c.tenor.com/Lg21skpXtU4AAAAC/cat-meme.gif",
+        "large_text": "I am mad"
+    },
+    "buttons": [
+        {
+            "label": "My Music Bot",
+            "url": "https://discord.com/oauth2/authorize?client_id=1200206489260933232"
+        },
+        {
+            "label": "My Fun Bot",
+            "url": "https://discord.com/oauth2/authorize?client_id=1218667354901315664&permissions=8&scope=applications.commands%20bot"
+        }
+    ]
 }
 
 usertoken = os.getenv("token")
